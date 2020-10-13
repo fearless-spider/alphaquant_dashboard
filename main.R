@@ -2,7 +2,14 @@
 # Objective : Interactive dashboard
 # Created by: Przemyslaw Pajak
 # Created on: 24/08/2020
+install.packages("httr")
 
+#Require the package so you can use it
+require("httr")
+install.packages("jsonlite")
+
+#Require the package so you can use it
+require("jsonlite")
 library(shiny)
 
 # Define UI for app that draws a histogram ----
